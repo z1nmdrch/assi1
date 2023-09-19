@@ -1,0 +1,271 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, blockquote {
+    margin: 0;
+    padding: 0;
+}
+/* Center images */
+.center {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.content h1 {
+    color: #007bff;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+
+.content h2 {
+    color: #007bff;
+    margin-top: 2rem;
+    
+}
+
+.content h3 {
+    color: #007bff;
+    margin-top: 1rem;
+}
+
+.content ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+blockquote {
+    border-left: 2px solid #007bff;
+    padding-left: 20px;
+    margin: 1rem 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+    transition: transform 0.2s ease; /* Add a transition effect */
+}
+
+/* Apply animation on hover */
+nav ul li:hover {
+    transform: scale(1.1); /* Enlarge the text when hovered */
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.2s ease, color 0.2s ease; /* Add a transition effect */
+}
+
+/* Change background color and text color on hover */
+nav a:hover {
+    background-color: #fff;
+    color: #007bff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+
+
+
+  #search-button {
+
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+/* Style the search image */
+#search-image {
+    width: 15px;
+    vertical-align: middle;
+}
+
+
+
+
+
+/* Левая боковая панель */
+.left-sidebar {
+    background-color: #f0f0f0; /* Цвет фона для левой боковой панели */
+    width: 20%; /* Регулируйте ширину по необходимости */
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+    text-align: center; /* Центрирование текста по горизонтали */
+    border-radius: 10px; /* Округленные углы */
+    margin-right: 20px; /* Добавьте немного отступа справа */
+}
+
+.left-sidebar p {
+    color: #007bff; /* Цвет текста выделенной рекламы */
+    font-weight: bold; /* Усиление шрифта */
+    padding: 10px; /* Добавьте отступ вокруг текста */
+    border: 2px solid #007bff; /* Рамка вокруг текста */
+    border-radius: 10px; /* Округленные углы для текста */
+}
+
+.left-sidebar img {
+    max-width: 100%; /* Убедитесь, что изображение не выходит за границы боковой панели */
+    display: block; /* Центрирование изображения по горизонтали */
+    margin: 0 auto; /* Центрирование изображения по горизонтали */
+}
+
+/* Правая боковая панель */
+.right-sidebar {
+    background-color: #f0f0f0; /* Цвет фона для правой боковой панели */
+    width: 20%; /* Регулируйте ширину по необходимости */
+    padding: 20px;
+    float: right;
+    box-sizing: border-box;
+    text-align: center; /* Центрирование текста по горизонтали */
+    border-radius: 10px; /* Округленные углы */
+    margin-left: 20px; /* Добавьте немного отступа слева */
+}
+
+.right-sidebar p {
+    color: #007bff; /* Цвет текста выделенной рекламы */
+    font-weight: bold; /* Усиление шрифта */
+    padding: 10px; /* Добавьте отступ вокруг текста */
+    border: 2px solid #007bff; /* Рамка вокруг текста */
+    border-radius: 10px; /* Округленные углы для текста */
+}
+
+.right-sidebar img {
+    max-width: 100%; /* Убедитесь, что изображение не выходит за границы боковой панели */
+    display: block; /* Центрирование изображения по горизонтали */
+    margin: 0 auto; /* Центрирование изображения по горизонтали */
+}
+
+
+
+
+
+
+
+
+/* Rest of your CSS remains the same */
+
+/* Learn More Button */
+.learn-more-button {
+    display: inline-block;
+    background-color: #fff; /* White background color */
+    color: #007bff; /* Blue text color */
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 10px; /* Add some spacing below the text */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.learn-more-button:hover {
+    background-color: #007bff; /* Blue background color on hover */
+    color: #fff; /* White text color on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.programming-section:nth-child(odd) {
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    margin-bottom: 20px; /* Add spacing between sections */
+}
+
+.programming-section:nth-child(even) {
+    background-color: #fff; /* White background color */
+    color: #007bff; /* Blue text color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    margin-bottom: 20px; /* Add spacing between sections */
+}
